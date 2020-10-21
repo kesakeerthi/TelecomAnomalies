@@ -2,6 +2,4 @@
 
 Detecting Performance Anomalies in Cellular Networks
 
-Anomalies Detection use case
-
-https://github.com/littlew/CellPAD
+GitHub Link: https://github.com/littlew/CellPAD
