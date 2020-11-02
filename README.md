@@ -8,4 +8,4 @@ GitHub Link: https://github.com/littlew/CellPAD
 
 requirements.txt and example folder as shown below.
 
-<img src="imgs/CellPad.jpg" alt="My cool logo"/>
+<img src="imgs/Cellpad.png" alt="My cool logo"/>
