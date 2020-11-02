@@ -25,16 +25,19 @@ CELLPAD detects two types of anomalies of practical interest, namely sudden drop
 
 
 How to call different algorithms?
+
 • For DropController, "predictor" can be "RF", "RT", "SLR", "HR", "WMA", "EWMA", "HW".
 • For ChangeController, "predictor" can be "RF", "RT", "SLR", "HR","LCS".
 
 
 How to perform feature selection?
+
 • "feature_types" can be a subset of ["Numerical", "Indexical"]
 • "feature_time_grain" can be a subset of ["Hourly", "Daily", "Hourly"]
 • "feature_operations" can be a subset of ["Raw", "Mean", "Median", "Wma", "Ewma"]
 
 How to remove any trend components?
+
 •	DropController(to_remove_trend=True, trend_remove_method="center_mean")
 •	ChangeController(to_remove_trend=False, trend_remove_method="center_mean")
 
