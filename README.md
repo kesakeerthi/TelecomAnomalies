@@ -27,6 +27,7 @@ CELLPAD detects two types of anomalies of practical interest, namely sudden drop
 How to call different algorithms?
 
 • For DropController, "predictor" can be "RF", "RT", "SLR", "HR", "WMA", "EWMA", "HW".
+
 • For ChangeController, "predictor" can be "RF", "RT", "SLR", "HR","LCS".
 
 
