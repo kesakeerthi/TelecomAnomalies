@@ -40,11 +40,14 @@ How to perform feature selection?
 How to remove any trend components?
 
 •	DropController(to_remove_trend=True, trend_remove_method="center_mean")
+
 •	ChangeController(to_remove_trend=False, trend_remove_method="center_mean")
 
 •	"to_remove_trend" is True or False to indicate whether to remove the trend or not.
+
 •	"trend_remove_method" is "center_mean" or "past_mean".
 
 •	"center_mean": the trend at time i is the mean of the points in [i-84, i+83].
+
 •	"past_mean": the trend at time i is the mean of the points in [i-167, i].
 
